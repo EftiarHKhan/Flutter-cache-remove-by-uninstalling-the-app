@@ -2,7 +2,7 @@
 
 By default, Flutter applications store backup data in the local storage. However, you can ensure that this data is removed by following these simple steps:
 
-1. Disable Backup Data Storage:
+## 1. Disable Backup Data Storage:
 
 Open the AndroidManifest.xml file located in the android/app/src/main directory of your Flutter project.
 Add the attribute android:allowBackup="false" to the <application> tag.
@@ -14,7 +14,7 @@ This step ensures that the application's data won't be backed up when the app is
 ![Screenshot 2024-03-27 at 10 02 13 AM](https://github.com/EftiarHKhan/Flutter-cache-remove-by-uninstalling-the-app/assets/105238792/a342d11f-4a5a-4a19-8936-ba3207103c37)
 
 
-2. Clearing Cache and Data:
+## 2. Clearing Cache and Data:
 
 After making the above change, reinstall the app on your device.
 Then, uninstall the app from your device.
